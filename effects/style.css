@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Besley", serif;
+  transition: 0.2s all linear;
+}
+*::selection {
+  background: #ff0000;
+  color: #000;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #000;
+  color: #fff;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+}
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+.heading span {
+  color: #ff0000;
+}
+
+/*  */
+.swiper-slide {
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  margin-bottom: 3.5rem;
+}
+.swiper-slide img {
+  height: 55rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+.swiper-slide h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+.icons {
+  position: absolute;
+  top: 1rem;
+  left: -10rem;
+}
+.swiper-slide:hover .icons {
+  left: 2rem;
+}
+.swiper-slide .icons i {
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 0.5rem;
+  line-height: 4.5rem;
+  background: #fff;
+  color: #000;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.swiper-slide .icons i:hover {
+  cursor: pointer;
+  background: #ff0000;
+  color: #fff;
+}
+.swiper-pagination-bullet {
+  background: #fff;
+}
+.swiper-pagination-bullet-active {
+  background: #ff0000;
+}
